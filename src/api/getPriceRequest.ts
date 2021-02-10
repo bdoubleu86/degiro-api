@@ -6,7 +6,7 @@ import { debug } from '../utils'
 
 // Import paths
 import { DEGIRO_API_PATHS } from '../enums'
-const { VWD_BASE_API_URL, VWD_GET_PRICE_PATH } = DEGIRO_API_PATHS
+const { VWD_BASE_API_URL_API, VWD_GET_PRICE_PATH } = DEGIRO_API_PATHS
 
 export function getPriceRequest(accountData: AccountDataType, accountConfig: AccountConfigType, options: GetPriceOptionsType): Promise<PriceType> {
   return new Promise(async (resolve, reject) => {
@@ -34,7 +34,7 @@ export function getPriceRequest(accountData: AccountDataType, accountConfig: Acc
     }
 
     // Generate de request URIs
-    const URI = `${VWD_BASE_API_URL}${VWD_GET_PRICE_PATH}?${params}`;
+    const URI = `${VWD_BASE_API_URL_API}${VWD_GET_PRICE_PATH}?${params}`;
 
     // Fetch the requested price data.
     try {

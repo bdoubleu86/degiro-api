@@ -19,6 +19,7 @@ var DEGIRO_API_PATHS;
     DEGIRO_API_PATHS["GET_ACCOUNT_REPORTS_PATH"] = "document/list/report";
     DEGIRO_API_PATHS["STOCKS_SEARCH_PATH"] = "v5/stocks";
     DEGIRO_API_PATHS["VWD_BASE_API_URL"] = "https://charting.vwdservices.com/hchart/";
+    DEGIRO_API_PATHS["VWD_BASE_API_URL_API"] = "api/hchart/";
     DEGIRO_API_PATHS["VWD_GET_PRICE_PATH"] = "v1/deGiro/data.js";
 })(DEGIRO_API_PATHS = exports.DEGIRO_API_PATHS || (exports.DEGIRO_API_PATHS = {}));
 var DeGiroActions;

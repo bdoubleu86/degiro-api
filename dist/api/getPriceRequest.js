@@ -39,7 +39,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getPriceRequest = void 0;
 // Import paths
 var enums_1 = require("../enums");
-var VWD_BASE_API_URL = enums_1.DEGIRO_API_PATHS.VWD_BASE_API_URL, VWD_GET_PRICE_PATH = enums_1.DEGIRO_API_PATHS.VWD_GET_PRICE_PATH;
+var VWD_BASE_API_URL = enums_1.DEGIRO_API_PATHS.VWD_BASE_API_URL_API, VWD_GET_PRICE_PATH = enums_1.DEGIRO_API_PATHS.VWD_GET_PRICE_PATH;
 function getPriceRequest(options) {
     var _this = this;
     return new Promise(function (resolve, reject) { return __awaiter(_this, void 0, void 0, function () {
